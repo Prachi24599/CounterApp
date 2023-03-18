@@ -7,5 +7,30 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+  <body>
+    <!--Wrapper-->
+    <div
+      class="w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-[#867070] gap-10"
+    >
+      <div class="font-medium text-[20px] text-[#FEFAE0]">
+        Increment And Decrement
+      </div>
+      <div
+        class="flex bg-white text-[25px] text-[#2D2727] rounded gap-12 p-3 px-5"
+      >
+        <button onclick="decrement()" class="border-r-2 border-[#bfbfbf] pr-5">
+          <i class="fa-solid fa-minus"></i>
+        </button>
+        <div class="font-bold value">0</div>
+        <button onclick="increment()" class="border-l-2 border-[#bfbfbf] pl-5">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/0496440cc3.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
